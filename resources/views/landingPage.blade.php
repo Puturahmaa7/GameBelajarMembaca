@@ -69,42 +69,45 @@
           class="w-140 object-cover rounded-xl"> 
         </div>
     </section>
-        
-    <section id="fitur" class="pt-10 lg:px-32 py-16 text-center bg-blue-50 shadow-sm">
-        <h2 class="text-2xl md:text-3xl font-semibold mb-3">Fitur</h2>
-        <p class="mt-5 text-sm max-w-xl mx-auto">
+    
+    <section id="fitur" class="pt-8 lg:px-32 py-12 text-center bg-blue-50 shadow-sm">
+        <h2 class="text-xl md:text-2xl font-semibold mb-2">Fitur</h2>
+        <p class="mt-3 text-sm max-w-xl mx-auto">
             Aplikasi belajar membaca yang dirancang khusus untuk anak dengan tampilan ramah anak dan interaktif, sehingga proses belajar terasa menyenangkan seperti bermain.
         </p>
 
-        <div class="mt-12 grid md:grid-cols-3 gap-8">
+        <div class="mt-8 grid md:grid-cols-3 gap-6">
+            <!-- Item Huruf -->
             <div>
                 <div class="flex justify-center">
-                    <img src="{{ asset('images/Huruf.png') }}" 
-                        class="w-24 object-cover rounded-xl" 
-                        alt="Gambar">
+                    <img src="{{ asset('images/Huruf.png') }}" class="w-20 object-cover rounded-xl" alt="Gambar">
                 </div>
-                <h3 class="mt-3 font-semibold">Huruf</h3>
-                <p class="mt-1 text-sm">Belajar huruf A-Z yang dilengkapi dengan suara pelafalan yang jelas serta ilustrasi huruf yang menarik. Anak dapat belajar mengenali bentuk huruf sambil mendengar dan menirukan bunyinya.</p>
+                <h3 class="mt-2 font-semibold text-base">Huruf</h3>
+                <p class="mt-1 text-xs">
+                    Belajar huruf A-Z dengan suara pelafalan yang jelas dan ilustrasi menarik. Anak dapat mengenali huruf sambil mendengar dan menirukan bunyinya.
+                </p>
             </div>
 
+            <!-- Item Suku Kata -->
             <div>
                 <div class="flex justify-center">
-                    <img src="{{ asset('images/SukuKata.png') }}" 
-                        class="w-24 object-cover rounded-xl" 
-                        alt="Gambar">
+                    <img src="{{ asset('images/SukuKata.png') }}" class="w-20 object-cover rounded-xl" alt="Gambar">
                 </div>
-                <h3 class="mt-3 font-semibold">Suku Kata</h3>
-                <p class="mt-1 text-sm">Belajar membaca suku kata dengan cara yang menyenangkan. Anak dapat mendengar setiap huruf dan suku kata, lalu latihan menyusun huruf menjadi rangkaian suku kata yang membantu mereka memahami dasar-dasar membaca dengan lebih cepat dan mudah.</p>
+                <h3 class="mt-2 font-semibold text-base">Suku Kata</h3>
+                <p class="mt-1 text-xs">
+                    Belajar membaca suku kata dengan cara menyenangkan. Anak mendengar huruf dan menyusun suku kata untuk memahami dasar membaca lebih cepat.
+                </p>
             </div>
 
+            <!-- Item Kata -->
             <div>
                 <div class="flex justify-center">
-                    <img src="{{ asset('images/Kata.png') }}" 
-                        class="w-24 object-cover rounded-xl" 
-                        alt="Gambar">
+                    <img src="{{ asset('images/Kata.png') }}" class="w-20 object-cover rounded-xl" alt="Gambar">
                 </div>
-                <h3 class="mt-3 font-semibold">Kata</h3>
-                <p class="mt-1 text-sm">Belajar membaca kata yang dilengkapi huruf, gambar objek, dan audio pengucapan, sehingga anak dapat mengenali kata sambil melihat visualnya dan mendengar cara pelafalannya dengan benar.</p>
+                <h3 class="mt-2 font-semibold text-base">Kata</h3>
+                <p class="mt-1 text-xs">
+                    Belajar membaca kata dengan huruf, gambar, dan audio. Anak dapat mengenali kata sambil melihat visual dan mendengar cara pengucapannya.
+                </p>
             </div>
         </div>
     </section>
