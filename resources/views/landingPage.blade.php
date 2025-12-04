@@ -10,7 +10,6 @@
 </head>
 <body class="bg-black-50 text-black-700">
 
-    <!-- NAVBAR -->
     <nav class="w-full px-8 py-4 flex justify-between items-center bg-blue-50 shadow-sm">
         <div>
           <img src="{{ asset('images/Logo.png') }}" alt="Logo" class="h-10">
@@ -37,7 +36,6 @@
             Masuk
           </a>
         </div>
-
 
     </nav>
 
@@ -71,54 +69,51 @@
           class="w-140 object-cover rounded-xl"> 
         </div>
     </section>
-
-    <!-- FITUR -->
-    <section id="fitur" class="pt-10 lg:px-32 py-20 text-center bg-blue-50  shadow-sm">
-        <h2 class=" text-3xl font-semibold mb-4">Fitur</h2>
-        <p class="mt-7 text-sm max-w-xl mx-auto">
+        
+    <section id="fitur" class="pt-10 lg:px-32 py-16 text-center bg-blue-50 shadow-sm">
+        <h2 class="text-2xl md:text-3xl font-semibold mb-3">Fitur</h2>
+        <p class="mt-5 text-sm max-w-xl mx-auto">
             Aplikasi belajar membaca yang dirancang khusus untuk anak dengan tampilan ramah anak dan interaktif, sehingga proses belajar terasa menyenangkan seperti bermain.
         </p>
 
-        <div class="mt-16 grid md:grid-cols-3 gap-12">
+        <div class="mt-12 grid md:grid-cols-3 gap-8">
             <div>
                 <div class="flex justify-center">
                     <img src="{{ asset('images/Huruf.png') }}" 
-                        class="w-30 object-cover rounded-xl" 
+                        class="w-24 object-cover rounded-xl" 
                         alt="Gambar">
                 </div>
-                <h3 class="mt-4 font-semibold">Huruf</h3>
-                <p class="mt-2 text-sm">Belajar huruf A-Z yang dilengkapi dengan suara pelafalan yang jelas serta ilustrasi huruf yang menarik. Anak dapat belajar mengenali bentuk huruf sambil mendengar dan menirukan bunyinya.</p>
+                <h3 class="mt-3 font-semibold">Huruf</h3>
+                <p class="mt-1 text-sm">Belajar huruf A-Z yang dilengkapi dengan suara pelafalan yang jelas serta ilustrasi huruf yang menarik. Anak dapat belajar mengenali bentuk huruf sambil mendengar dan menirukan bunyinya.</p>
             </div>
 
             <div>
                 <div class="flex justify-center">
                     <img src="{{ asset('images/SukuKata.png') }}" 
-                        class="w-30 object-cover rounded-xl" 
+                        class="w-24 object-cover rounded-xl" 
                         alt="Gambar">
                 </div>
-                <h3 class="mt-4 font-semibold">Suku Kata</h3>
-                <p class="mt-2 text-sm">Belajar membaca suku kata dengan cara yang menyenangkan. Anak dapat mendengar setiap huruf dan suku kata, lalu latihan menyusun huruf menjadi rangkaian suku kata yang membantu mereka memahami dasar-dasar membaca dengan lebih cepat dan mudah.</p>
+                <h3 class="mt-3 font-semibold">Suku Kata</h3>
+                <p class="mt-1 text-sm">Belajar membaca suku kata dengan cara yang menyenangkan. Anak dapat mendengar setiap huruf dan suku kata, lalu latihan menyusun huruf menjadi rangkaian suku kata yang membantu mereka memahami dasar-dasar membaca dengan lebih cepat dan mudah.</p>
             </div>
 
             <div>
                 <div class="flex justify-center">
                     <img src="{{ asset('images/Kata.png') }}" 
-                        class="w-30 object-cover rounded-xl" 
+                        class="w-24 object-cover rounded-xl" 
                         alt="Gambar">
                 </div>
-                <h3 class="mt-4 font-semibold">Kata</h3>
-                <p class="mt-2 text-sm">Belajar membaca kata yang dilengkapi huruf, gambar objek, dan audio pengucapan, sehingga anak dapat mengenali kata sambil melihat visualnya dan mendengar cara pelafalannya dengan benar.</p>
+                <h3 class="mt-3 font-semibold">Kata</h3>
+                <p class="mt-1 text-sm">Belajar membaca kata yang dilengkapi huruf, gambar objek, dan audio pengucapan, sehingga anak dapat mengenali kata sambil melihat visualnya dan mendengar cara pelafalannya dengan benar.</p>
             </div>
         </div>
     </section>
 
-    <!-- TENTANG KAMI -->
-    <section id="tentang" class="pt-13 lg:px-32 pb-10 bg-white">
-      <h2 class="text-3xl font-semibold mb-3 text-center">Tentang Kami</h2>
+    <section id="tentang" class="pt-2 lg:px-32 py-20 text-center bg-white  shadow-sm">
+      <h2 class="text-3xl font-semibold mb-6 text-center mt-8">Tentang Kami</h2>
 
       <div class="pt-3 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
 
-        <!-- Kolom Teks -->
         <div class="text-left">
           <p class="text-sm leading-relaxed">
             ABC Fun Land adalah platform game edukasi yang dirancang untuk membantu anak belajar membaca dengan metode yang menyenangkan, interaktif, dan mudah dipahami. Aplikasi ini berfokus pada konsep 
@@ -131,7 +126,6 @@
           </p>
         </div>
 
-        <!-- Kolom Gambar -->
         <div class="flex justify-center">
           <img 
             src="{{ asset('images/Logo.png') }}" 
@@ -140,12 +134,9 @@
           >
         </div>
       </div>
-    </section>
 
-
-      <h2 class="text-2xl font-semibold mb-7 text-center">Founders</h2>
-
-        <div class="pl-10 pr-10 grid md:grid-cols-4 gap-6 pb-15">
+      <h2 class="text-2xl font-semibold mb-7 mt-7 text-center">Founders</h2>
+      <div class="grid md:grid-cols-4 gap-6">
             
             <div class="bg-blue-50 p-6 rounded-2xl shadow-md">
                 <img 
@@ -157,7 +148,6 @@
                 <p class="text-sm text-gray-600 text-left font-medium">Role Founder</p>
             </div>
 
-            <!-- Card 2 -->
             <div class="bg-blue-50 p-6 rounded-2xl shadow-md">
                 <img 
                   src="{{ asset('images/Profile.png') }}" 
@@ -167,7 +157,6 @@
                 <p class="text-sm text-gray-600 text-left font-medium">Role Founder</p>
             </div>
 
-            <!-- Card 3 -->
             <div class="bg-blue-50 p-6 rounded-2xl shadow-md">
                 <img 
                   src="{{ asset('images/Profile.png') }}" 
@@ -177,7 +166,6 @@
                 <p class="text-sm text-gray-600 text-left font-medium">Role Founder</p>
             </div>
 
-                        <!-- Card 3 -->
             <div class="bg-blue-50 p-6 rounded-2xl shadow-md">
                 <img 
                   src="{{ asset('images/Profile.png') }}" 
@@ -191,69 +179,57 @@
 
     </section>
 
-    <section id="kontak" class="pt-13 lg:px-32 pb-10 bg-blue-50">
-      <!-- Title -->
-      <h2 class="text-3xl font-semibold text-center text-gray-700 ">Hubungi Kami</h2>
-      <p class="text-center text-gray-500 mt-7 mb-7">
-        Butuh bantuan atau punya pertanyaan? Tim kami siap membantu kapan saja. Silakan hubungi kami melalui kontak berikut.
-      </p>
+   <section id="kontak" class="pt-15 lg:px-32 text-center bg-blue-50 shadow-sm pb-13 py-10">
+        <h2 class=" text-3xl font-semibold">Hubungi Kami</h2>
+        <p class="mt-7 text-sm max-w-xl mx-auto mb-7">
+           Butuh bantuan atau punya pertanyaan? Tim kami siap membantu kapan saja. Silakan hubungi kami melalui kontak berikut.
+        </p>
 
-      <!-- Contact List -->
-      <div class="pl-10 pr-10 grid md:grid-cols-3 gap-6 pb-15">
-        
-        <!-- Telepon -->
-        <div  class="bg-white p-6 rounded-2xl shadow-md">
-          <div class="w-12 h-12 bg-gray-200 rounded-lg flex items-center justify-center">
-            <img src="{{ asset('images/Whatsapp.png') }}" class="w-9 h-9 opacity-80">
-          </div>
-          <div>
-            <h3 class="font-semibold text-gray-800 text-lg">Telepon</h3>
-            <p class="text-sm text-gray-600 mt-1">
-              Jika membutuhkan respon cepat, hubungi kami melalui telepon.
-            </p>
-            <p class="font-semibold text-sm text-gray-600 mt-1">
-              (+62) 812-3456-7890
-            </p>
-          </div>
-        </div>
+      <div class="pl-10 pr-10 grid md:grid-cols-3 gap-6 pb-10">
 
-        <!-- Email -->
-        <div class="bg-white p-6 rounded-2xl shadow-md">
-          <div class="w-12 h-12 bg-gray-200 rounded-lg flex items-center justify-center">
-            <img src="{{ asset('images/Gmail.png') }}" class="w-8 h-8 opacity-80">
+          <div class="bg-white p-6 rounded-2xl shadow-md flex flex-col items-center text-center">
+              <div class="w-12 h-12 bg-gray-200 rounded-lg flex items-center justify-center mb-3">
+                  <img src="{{ asset('images/Whatsapp.png') }}" class="w-9 h-9 opacity-80">
+              </div>
+              <h3 class="font-semibold text-gray-800 text-lg">Telepon</h3>
+              <p class="text-sm text-gray-600 mt-1">
+                  Jika membutuhkan respon cepat, hubungi kami melalui telepon.
+              </p>
+              <p class="font-semibold text-sm text-gray-600 mt-1">
+                  (+62) 812-3456-7890
+              </p>
           </div>
-          <div>
-            <h3 class="font-semibold text-gray-800 text-lg">Email</h3>
-            <p class="text-sm text-gray-600 mt-1">
-              Untuk pertanyaan umum, kerja sama, atau dukungan teknis, kirim pesan ke:
-            </p>
-            <p class="font-semibold text-sm text-gray-600 mt-1">
-              ABCFunLand@edu.ac.id
-            </p>
-          </div>
-        </div>
 
-        <!-- Alamat -->
-        <div class="bg-white p-6 rounded-2xl shadow-md">
-          <div class="w-12 h-12 bg-gray-200 rounded-lg flex items-center justify-center">
-            <img src="{{ asset('images/Alamat.png') }}" class="w-8 h-8 opacity-80">
+          <div class="bg-white p-6 rounded-2xl shadow-md flex flex-col items-center text-center">
+              <div class="w-12 h-12 bg-gray-200 rounded-lg flex items-center justify-center mb-3">
+                  <img src="{{ asset('images/Gmail.png') }}" class="w-8 h-8 opacity-80">
+              </div>
+              <h3 class="font-semibold text-gray-800 text-lg">Email</h3>
+              <p class="text-sm text-gray-600 mt-1">
+                  Untuk pertanyaan umum, kerja sama, atau dukungan teknis, kirim pesan ke:
+              </p>
+              <p class="font-semibold text-sm text-gray-600 mt-1">
+                  ABCFunLand@edu.ac.id
+              </p>
           </div>
-          <div>
-            <h3 class="font-semibold text-gray-800 text-lg">Alamat</h3>
-            <p class="text-sm text-gray-600 mt-1">
-              Kunjungi kantor kami untuk konsultasi langsung:
-            </p>
-            <p class="font-semibold text-sm text-gray-600 mt-1">
-              Jl. Raya Kampus Udayana, Jimbaran, Kec. Kuta Sel., Kabupaten Badung, Bali 80361
-            </p>
+
+          <div class="bg-white p-6 rounded-2xl shadow-md flex flex-col items-center text-center">
+              <div class="w-12 h-12 bg-gray-200 rounded-lg flex items-center justify-center mb-3">
+                  <img src="{{ asset('images/Alamat.png') }}" class="w-8 h-8 opacity-80">
+              </div>
+              <h3 class="font-semibold text-gray-800 text-lg">Alamat</h3>
+              <p class="text-sm text-gray-600 mt-1">
+                  Kunjungi kantor kami untuk konsultasi langsung:
+              </p>
+              <p class="font-semibold text-sm text-gray-600 mt-1 text-center">
+                  Jl. Raya Kampus Udayana, Jimbaran, Kec. Kuta Sel., Kabupaten Badung, Bali 80361
+              </p>
           </div>
-        </div>
+
       </div>
     </section>
 
-
-    <!-- TESTIMONI -->
-    <section id="testimoni" class="px-8 lg:px-32 py-20 bg-white text-center">
+    <section id="testimoni" class="px-8 lg:px-32 bg-white text-center pb-15 py-10">
         <h2 class="text-2xl font-semibold mb-6">Testimoni</h2>
 
         <div class="grid md:grid-cols-3 gap-8">
@@ -271,26 +247,25 @@
         </div>
     </section>
 
-    <!-- FOOTER -->
     <footer class="py-5 text-center bg-blue-50 text-sm">
         <div class="flex justify-center">
             <img src="{{ asset('images/Logo.png') }}" 
-                class="w-30 object-cover rounded-xl" 
+                class="h-20 object-cover rounded-xl" 
                 alt="Gambar">
         </div>
 
         <div class="flex justify-center gap-4 mt-4">
             <span>
               <img src="{{ asset('images/Whatsapp.png') }}" 
-                class="w-5 object-cover rounded-xl" >
+                class="w-7 object-cover rounded-xl" >
             </span>
             <span>
               <img src="{{ asset('images/Gmail.png') }}" 
-                class="w-5 object-cover rounded-xl" >
+                class="w-7 object-cover rounded-xl" >
             </span>
             <span>
               <img src="{{ asset('images/Alamat.png') }}" 
-                class="w-5 object-cover rounded-xl" >
+                class="w-7 object-cover rounded-xl" >
             </span>
         </div>
         <p class="mt-4 text-xs text-gray-500">

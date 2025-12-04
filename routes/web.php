@@ -21,4 +21,16 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+use Illuminate\Support\Facades\Mail;
+
+Route::get('/test-email', function () {
+    Mail::raw('Ini adalah test email dari Laravel', function ($message) {
+        $message->to('puturahmaa7@gmail.com')
+                ->subject('Test Koneksi Gmail dari Laravel');
+    });
+
+    return 'Email test sudah dikirim (kalau SMTP benar).';
+});
+
+
 require __DIR__.'/auth.php';
